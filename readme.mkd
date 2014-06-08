@@ -12,6 +12,12 @@ Takes three position parameters:
    be centered on top of a single-colored background.
 3. *Optional*. A destination directory, otherwise the current working directory.
 
+Example: 
+
+````
+    bash phonegap-icon-splash-generator.sh YOUR_FILE.png "#FFFFFF"
+````
+
 Copy the resulting `res` directory within your PhoneGap's `www` directory and
 merge the provided `config.xml`.
 
